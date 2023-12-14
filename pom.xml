@@ -12,7 +12,6 @@
 	<groupId>com.MyAPi</groupId>
 	<artifactId>apiImpl</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 	<name>apiImpl</name>
 	<description>this project override sunbase data api</description>
 	<properties>
@@ -26,13 +25,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web-services</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
-			
 		</dependency>
 
 		<dependency>
